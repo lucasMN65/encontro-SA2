@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Baskervville:ital@1 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #CC19FA, #7F16DE, #5924F5, #161BDE, #1959FA);
+}
+header{
+    background-color: black;
+    height: 77px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+.grid{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+    text-transform: uppercase;
+    font-style: initial;
+    font-family:'Baskervville';
+    font-size: 20px;
+}
+.menu{
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a:hover{
+    color: lightskyblue;
+    transition-duration: 0.5s;
+}
+.banner{
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    height: 700px;
+    background-image: url(img/istockphoto-1253989842-612x612\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textobanner h1{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(25, 25, 236);
+    font-style: initial;
+    font-family:'Baskervville';
+    font-size:100px;
+    padding-top: 50px;
+    margin-right: 5%;
+}
+.textobanner a{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(9, 31, 233);
+    font-style: initial;
+    font-family:'Baskervville';
+    font-size:25px;
+    
+    margin-right: 8%;
+}
+
